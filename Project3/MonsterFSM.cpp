@@ -1,5 +1,13 @@
 #include "MonsterFSM.h"
 
+MonsterFSM::MonsterFSM()
+{
+}
+
+MonsterFSM::~MonsterFSM()
+{
+}
+
 void MonsterFSM::UpdateState(MonsterState curstate)
 {
 	switch (curstate)

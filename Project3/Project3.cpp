@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include "Image.h"
+#include <map>
+#include "MonsterFSM.h"
 
 using namespace std;
 
@@ -16,4 +18,7 @@ int main()
 	Image* img = new Image[size];
 
 	delete[size] img;
+
+	map<int, MonsterFSM> testState;
+	testState[0] = MonsterFSM();
 }

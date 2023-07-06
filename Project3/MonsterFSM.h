@@ -12,6 +12,10 @@ class MonsterFSM
 	bool bIsClose = false;
 	float HP = 100;
 
+public:
+	MonsterFSM();
+	~MonsterFSM();
+
 	void UpdateState(MonsterState curstate);
 };
 
