@@ -1,8 +1,5 @@
 #pragma once
-
-#include "AActor.h"
-
-class FWall : AActor
+class AActor
 {
 private:
 	int X;
@@ -10,9 +7,11 @@ private:
 	char Shape;
 
 public:
-	FWall();
-	virtual ~FWall();
+	AActor();
+	virtual ~AActor();
 
 	void Render();
+	void Tick();
+	void Input();
 };
 
