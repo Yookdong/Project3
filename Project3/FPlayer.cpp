@@ -1,9 +1,12 @@
 #include "FPlayer.h"
 
-FPlayer::FPlayer()
+APlayer::APlayer()
 {
+	X = 1;
+	Y = 1;
+	Shape = 'P';
 }
 
-FPlayer::~FPlayer()
+APlayer::~APlayer()
 {
 }

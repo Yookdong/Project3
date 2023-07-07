@@ -1,9 +1,12 @@
 #include "FMonster.h"
 
-FMonster::FMonster()
+AMonster::AMonster()
 {
+	X = 1;
+	Y = 1;
+	Shape = 'M';
 }
 
-FMonster::~FMonster()
+AMonster::~AMonster()
 {
 }

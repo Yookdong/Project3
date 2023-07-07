@@ -2,10 +2,10 @@
 
 #include "AActor.h"
 
-class FMonster : AActor
+class AMonster : public AActor
 {
 public:
-	FMonster();
-	virtual ~FMonster();
+	AMonster();
+	virtual ~AMonster();
 };
 

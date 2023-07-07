@@ -2,10 +2,10 @@
 
 #include "AActor.h"
 
-class FPlayer : AActor
+class APlayer : public AActor
 {
 public:
-	FPlayer();
-	virtual ~FPlayer();
+	APlayer();
+	virtual ~APlayer();
 };
 

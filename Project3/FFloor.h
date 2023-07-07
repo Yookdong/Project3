@@ -2,10 +2,10 @@
 
 #include "AActor.h"
 
-class FFloor : AActor
+class AFloor : public AActor
 {
 public:
-	FFloor();
-	virtual ~FFloor();
+	AFloor();
+	virtual ~AFloor();
 };
 

@@ -2,17 +2,10 @@
 
 #include "AActor.h"
 
-class FWall : AActor
+class AWall : public AActor
 {
-private:
-	int X;
-	int Y;
-	char Shape;
-
 public:
-	FWall();
-	virtual ~FWall();
-
-	void Render();
+	AWall();
+	virtual ~AWall();
 };
 

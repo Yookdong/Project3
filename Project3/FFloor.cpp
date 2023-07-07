@@ -1,9 +1,12 @@
 #include "FFloor.h"
 
-FFloor::FFloor()
+AFloor::AFloor()
 {
+	X = 1;
+	Y = 1;
+	Shape = ' ';
 }
 
-FFloor::~FFloor()
+AFloor::~AFloor()
 {
 }

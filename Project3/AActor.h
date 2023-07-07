@@ -1,12 +1,11 @@
 #pragma once
 class AActor
 {
-private:
+public:
 	int X;
 	int Y;
 	char Shape;
 
-public:
 	AActor();
 	virtual ~AActor();
 
