@@ -127,11 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FFloor.cpp" />
+    <ClCompile Include="FMonster.cpp" />
+    <ClCompile Include="FPlayer.cpp" />
+    <ClCompile Include="FWall.cpp" />
     <ClCompile Include="Image.cpp" />
     <ClCompile Include="MonsterFSM.cpp" />
     <ClCompile Include="Project3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FFloor.h" />
+    <ClInclude Include="FMonster.h" />
+    <ClInclude Include="FPlayer.h" />
+    <ClInclude Include="FWall.h" />
     <ClInclude Include="Image.h" />
     <ClInclude Include="MonsterFSM.h" />
   </ItemGroup>

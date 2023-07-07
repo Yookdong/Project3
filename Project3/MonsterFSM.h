@@ -2,12 +2,12 @@
 
 enum class MonsterState
 {
-	PROWL = 1, CHASE, ATTACK, DEATH,
+	IDLE, PROWL, CHASE, ATTACK, DEATH,
 };
 
 class MonsterFSM
 {
-	MonsterState currentState;
+	MonsterState currentState = MonsterState::IDLE;
 	bool bIsFindEnemy = false;
 	bool bIsClose = false;
 	float HP = 100;
