@@ -10,3 +10,7 @@ AMonster::AMonster()
 AMonster::~AMonster()
 {
 }
+
+void AMonster::Tick()
+{
+}

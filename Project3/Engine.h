@@ -6,7 +6,6 @@
 using namespace std;
 class Engine
 {
-	bool bIsRunning = false;
 
 public:
 	vector<AActor*> Actors;
@@ -16,9 +15,19 @@ public:
 	void Run(); 
 	void SpawnActor(AActor* newactor);
 
+	static Engine* EngineInstance;
+
+	inline int GetKeyCode() { return KeyCode; }
+	int SetKeyCode(int value) { KeyCode = value; }
+
 protected:
+	bool bIsRunning = true;
+	int KeyCode;
+
 	void Input();
 	void Tick();
 	void Render();
+
 };
 
+#define GEngine Engine::EngineInstance
