@@ -10,9 +10,7 @@ int main()
 	Engine* MyEngine = new Engine;
 
 	// load
-	APlayer* MyPlayer = new APlayer;
-
-	MyEngine->SpawnActor(MyPlayer);
+	MyEngine->SpawnActor(new APlayer);
 	MyEngine->SpawnActor(new AMonster);
 	// 
 
@@ -20,6 +18,7 @@ int main()
 
 	delete MyEngine; // 포인터를 사용하는 이유
 	// 내가 만들고 싶을 때 만들고 내가 지우고 싶을 때 지우기 위해
+
 
 	return 0;
 }
